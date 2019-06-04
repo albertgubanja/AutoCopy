@@ -22,12 +22,12 @@ def copyfichier():
         p +=1
                 
 
-    #def copy(filedepart, pathdest):
+    def copy(filedepart, pathdest):
         
         # formatage de la commande dos pour la copie
         
-        #command = "copy " + filedepart + " " + pathdest # ommand
-        #system(command) # execution de la commande
+        command = "copy " + filedepart + " " + pathdest # ommand
+        system(command) # execution de la commande
 
     while True:
         for flash in listflash:
